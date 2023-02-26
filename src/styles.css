@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+#outer-box {
+  height: 200px;
+  width: 200px;
+  background-color: #7e57c2;
+  border-radius: 50%;
+  margin: 100px auto 50px;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  position: absolute;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.oval {
+  width: 100px;
+  height: 50px;
+  margin: 25px auto;
+  background: white;
+  border-radius: 50px / 25px;
+  position: absolute;
+}
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid white;
+  position: absolute;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid white;
+  position: absolute;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid white;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid white;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+}
+
+.triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid white;
+  border-right: 100px solid transparent;
+  position: absolute;
+}
+
+.triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid white;
+  border-left: 100px solid transparent;
+  position: absolute;
+}
+
+.triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid white;
+  border-right: 100px solid transparent;
+  position: absolute;
+}
+
+.triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid white;
+  border-left: 100px solid transparent;
+  position: absolute;
+}
+
+#btn1 {
+  height: 50px;
+  width: 200px;
+  margin: 25px auto;
+  font-size: 1.2rem;
+  font-family: initial;
+}
+
+#btn2 {
+  height: 50px;
+  width: 200px;
+  margin: 25px auto;
+  margin-top: 0px;
+  font-size: 1.2rem;
+  font-family: initial;
+}
